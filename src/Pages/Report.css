@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.report {
+    width: 100%;
+    height: 100%;
+}
+.report-layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.report-navbar {
+    margin-bottom: 40px;
+}
+.table-frame {
+    display: flex;
+    flex-direction: column;
+}

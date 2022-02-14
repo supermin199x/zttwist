@@ -1,0 +1,63 @@
+.navbar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+}
+.nav-item-left {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+.nav-item-right {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+.dash-links {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.dash-links:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.report-links {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.report-links:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.chart-links {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.chart-links:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.logout-link {
+    color: white;
+    text-decoration: underline;
+}
+.logout-link:hover {
+    color: tomato;
+    text-decoration: underline;
+}

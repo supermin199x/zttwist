@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Login {
+   width: 100vw; 
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-login {
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+}
+.imglogo {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+.input-username {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.input-username label{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.input-username input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.input-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 80px;
+}
+.input-password label{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.input-password input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Login button {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}

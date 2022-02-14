@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.search {    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.group-datestart, 
+.group-dateend,
+.group-machine,
+.group-sensor,
+.group-machine 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 130px;
+    height: 40px;
+    margin-right: 5px;
+    border: solid 1px gray;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+.search-layout label {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
+
+.search-layout input {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+
+}
+
+.search-layout select {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.btn-reset button {
+    width: 80px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-search button {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .search {    
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        height: 100%;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+    .group-datestart, 
+    .group-dateend,
+    .group-machine,
+    .group-sensor,
+    .group-machine 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 90px;
+        height: 40px;
+        margin-right: 5px;
+        border: solid 1px gray;
+        border-radius: 2px;
+    }
+    
+    .search-layout label {
+        width: 100%;
+        height: 100%;
+        margin-right: 5px;
+        font-weight: 700;
+        font-size: 5px;
+    }
+    .search-layout input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+    }
+    
+    .search-layout select {
+        width: 100%;
+        height: 100%;
+        margin-right: 5px;
+        border: none;
+        outline: none;
+        text-align: right;
+    }
+
+    .btn-reset button {
+        width: 45px;
+        height: 40px;
+        font-size: 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .btn-search button {
+        width: 45px;
+        height: 40px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+}
