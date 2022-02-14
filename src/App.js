@@ -12,7 +12,7 @@ function App() {
 		<BrowserRouter>
 			<div className={'app'}>
 				<Routes>
-					<Route index path={'/'} element={<Login />} />
+					<Route index path={'https://supermin199x.github.io/zttwist/'} element={<Login />} />
 					<Route path="/dashboard" element={<Dashboard />}/>
 					<Route path="/report" element={<Report />}/>
 					<Route path="/chart" element={<Chart />}/>
