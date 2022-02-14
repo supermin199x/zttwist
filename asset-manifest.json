@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zttwist/static/css/main.3ceeec8d.css",
+    "main.js": "/zttwist/static/js/main.d50ff4e6.js",
+    "index.html": "/zttwist/index.html",
+    "main.3ceeec8d.css.map": "/zttwist/static/css/main.3ceeec8d.css.map",
+    "main.d50ff4e6.js.map": "/zttwist/static/js/main.d50ff4e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ceeec8d.css",
+    "static/js/main.d50ff4e6.js"
+  ]
+}
